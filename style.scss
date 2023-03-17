@@ -374,10 +374,14 @@ footer{
 
 
 @media (max-width:600px){
+     *{
+        overflow-x: hidden;
+     }
 
    header{
     nav{
         padding: 20px !important;
+        width: 416px;
         .add{
             margin: 0 !important;
         }

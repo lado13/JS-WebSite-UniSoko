@@ -349,8 +349,12 @@ footer .footer_box .row h5 {
 }
 
 @media (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+  }
   header nav {
     padding: 20px !important;
+    width: 416px;
   }
   header nav .add {
     margin: 0 !important;
