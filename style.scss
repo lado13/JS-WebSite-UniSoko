@@ -2,8 +2,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);  
 }
 
 .loader{
@@ -68,7 +67,6 @@ header{
                     max-width: 503px;
                     height: 86px;
                     margin-bottom: 31px;
-
                 }
                 .inp_box{
                     position: relative;
@@ -82,8 +80,7 @@ header{
                         top: 307px;
                         border: 2px solid #FC0B0D;
                         border-radius: 20px;
-                        padding-left: 109px;
-                        
+                        padding-left: 109px;  
                     }
                     ::placeholder{
                         font-style: normal;
@@ -91,17 +88,17 @@ header{
                         font-size: 16px;
                         line-height: 19px;
                         color: #004B84;
-
                     }
                     .search{
                         position: absolute;
                         left: 26px;
+                        cursor: pointer;
                     }
                     .slider{
                         position: absolute;
                         right: 35px;
                         display: none;
-                        
+                        cursor: pointer;
                     }
                 }
                 .header_img{
@@ -162,10 +159,7 @@ header{
             align-items: center;
             text-align: center;
             color: #000000;
-
            }
-           
-
         }
         .first{
             position: relative;
@@ -225,9 +219,7 @@ header{
                 }
             }
         }
-
     }
-
 }
 
 
@@ -251,8 +243,6 @@ header{
                 background-color: #0896e2;        
                 padding: 0 88px;
                 text-decoration: none;
-               
-                
             }
         }
 
@@ -261,7 +251,6 @@ header{
             height: 300px;
             margin-bottom: 59px;
         }
-       
     }
 
     .block{
@@ -292,8 +281,7 @@ header{
                 width: 100%;
                 height: 200px;
                 object-fit: cover;
-            } 
-            
+            }  
         }
 
         
@@ -330,12 +318,7 @@ header{
             color: #000000;
             margin: 0 10px;
         }
-
-       
-
     }
-
-
 }
 
 
@@ -349,47 +332,42 @@ footer{
         position: relative;
         margin: 0;
       
-        
         .eclips{
             position: absolute;
             right: -115px;
             top: -135px;
-           
         }
-
-    .row{
-        h3{
-            font-weight: 400;
-            font-size: 48px;
-            line-height: 58px;
-            color: #000000 !important;
-            margin-bottom: 30px;
-
+        .row{
+            h3{
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 58px;
+                color: #000000 !important;
+                margin-bottom: 30px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #504A41  !important;
+                width: 610px;
+                height: 110px;
+            }
+            h4{
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                color: #000000 !important;
+                margin-bottom: 30px;
+            }
+            h5{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #000000;
+                margin-bottom: 29px;
+            } 
         }
-        p{
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 22px;
-            color: #504A41  !important;
-            width: 610px;
-            height: 110px;
-        }
-        h4{
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 30px;
-            color: #000000 !important;
-            margin-bottom: 30px;
-        }
-        h5{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 22px;
-            color: #000000;
-            margin-bottom: 29px;
-        }
-        
-    }
     }
 }
 
@@ -442,7 +420,6 @@ footer{
             img{
                 width: 67px;
                 height: 67px;
-
             }
             margin-bottom: 100px;
         }
@@ -455,8 +432,7 @@ footer{
     padding: 60px 29px 146px 29px;
     .footer_box{
         .eclips{
-            right: -10px;
-            
+            right: -10px;  
         }
         .row{
             p{
@@ -466,8 +442,6 @@ footer{
         }
     }
    }
-
-
 }
 
 

@@ -99,11 +99,13 @@ header .header_box .row .header_col .inp_box ::placeholder {
 header .header_box .row .header_col .inp_box .search {
   position: absolute;
   left: 26px;
+  cursor: pointer;
 }
 header .header_box .row .header_col .inp_box .slider {
   position: absolute;
   right: 35px;
   display: none;
+  cursor: pointer;
 }
 header .header_box .row .header_col .header_img {
   max-width: 436px;
