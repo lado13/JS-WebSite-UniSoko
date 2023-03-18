@@ -364,6 +364,13 @@ footer .footer_box .row h5 {
   header nav .li {
     margin-left: 165px;
   }
+  header nav .li .btn_box {
+    height: 30px;
+  }
+  header nav .li .btn_box .change_bg {
+    width: 25px;
+    height: 25px;
+  }
   header .header_box {
     padding: 100px 0 0 0 !important;
     height: 450px !important;

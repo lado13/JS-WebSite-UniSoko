@@ -393,6 +393,13 @@ footer{
         }
         .li{
             margin-left: 165px;
+            .btn_box{
+                height: 30px;
+                .change_bg{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
         }
     }
 
