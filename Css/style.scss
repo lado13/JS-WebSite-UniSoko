@@ -159,12 +159,14 @@ header{
             align-items: center;
             text-align: center;
             color: #000000;
+            border: none;
            }
         }
         .first{
             position: relative;
             .lorem{
                 border: 1px solid rgb(255, 255, 255);
+                border-radius: 15px;
                 background-color: #000000;
                 position: absolute;
                 top: -117px;
@@ -194,6 +196,7 @@ header{
             position: relative;
             .lorem2{
                 border: 1px solid rgb(255, 255, 255);
+                border-radius: 15px;
                 background-color: #000000;
                 position: absolute;
                 top: -118px;
@@ -375,17 +378,13 @@ footer{
 
 @media (max-width:600px){
 
-    body{
-        overflow-x: hidden;
-    }
-
-  
+   
 
 
    header{
     nav{
         padding: 20px !important;
-        width: 416px;
+     
         .add{
             margin: 0 !important;
         }
@@ -427,6 +426,16 @@ footer{
                 height: 67px;
             }
             margin-bottom: 100px;
+        }
+        .first{
+            .lorem{
+                left: 34px;
+            }
+        }
+        .second{
+            .lorem2{
+                right: 37px;
+            }
         }
     }
    }
