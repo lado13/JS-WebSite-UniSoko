@@ -1,7 +1,9 @@
 
 DisplayMode();
 $('.change_bg').click(function(){
+
     let mode = localStorage.getItem('mode');
+
     if (mode == 'dark') {
         localStorage.setItem('mode','light');
         DisplayMode();
@@ -12,7 +14,9 @@ $('.change_bg').click(function(){
 });
 
 function DisplayMode() {
+
     let mode = localStorage.getItem('mode');
+    
     if (mode == 'light') {
         $('body').css('background-color','white');
         $('body').css('color','black');

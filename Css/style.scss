@@ -285,7 +285,9 @@ header{
                 height: 200px;
                 object-fit: cover;
             }  
+            
         }
+      
 
         
        
@@ -392,10 +394,11 @@ footer{
             padding: 10px !important;
         }
         .li{
-            margin-left: 115px;
+            margin-left: 165px;
             .btn_box{
                 height: 30px;
                 width: 67px;
+                margin-left: 114px;
                 .change_bg{
                     width: 25px;
                     height: 25px;

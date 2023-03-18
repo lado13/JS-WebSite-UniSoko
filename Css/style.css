@@ -362,11 +362,12 @@ footer .footer_box .row h5 {
     padding: 10px !important;
   }
   header nav .li {
-    margin-left: 115px;
+    margin-left: 165px;
   }
   header nav .li .btn_box {
     height: 30px;
     width: 67px;
+    margin-left: 114px;
   }
   header nav .li .btn_box .change_bg {
     width: 25px;
