@@ -1,6 +1,7 @@
 
-///////////////////////api////////////////////////
-fetch(' https://api.escuelajs.co/api/v1/products/', {
+///////////////////////api server get////////////////////////
+
+fetch(' https://fakestoreapi.com/products/' , {
     method:'get',
     headers:{
         "Content-Type": "text/xml",
@@ -25,7 +26,7 @@ fetch(' https://api.escuelajs.co/api/v1/products/', {
         col.appendChild(price);
      
         name.innerText = data[i].title;
-        img.src = data[i].images;
+        img.src = data[i].image;
         price.innerText = 'Price: ' + data[i].price + ' $';
         
         col.addEventListener('click', function(){
@@ -48,7 +49,7 @@ fetch(' https://api.escuelajs.co/api/v1/products/', {
 let seeMore = localStorage.getItem('id');
 function ResponseUrl(){
 
-    let data = fetch(' https://api.escuelajs.co/api/v1/products/' + seeMore);
+    let data = fetch(' https://fakestoreapi.com/products/' + seeMore);
     return data;
 
   };
@@ -61,7 +62,7 @@ async function detals(){
         document.querySelector('.title').innerText = Response.title;
         document.querySelector('.price').innerText = 'Price: ' + Response.price + ' $';
         document.querySelector('.description').innerText = Response.description;
-        document.querySelector('.image').src = Response.images;
+        document.querySelector('.image').src = Response.image;
         $('#box').css('opacity','1');
         $('.loader').css('opacity','0');
 
@@ -80,7 +81,7 @@ async function detals(){
 detals();
 
 
-////////////////////show more///////////////////////////
+////////////////////show more function///////////////////////////
 
 $(document).ready(function () {
 
@@ -107,3 +108,6 @@ $('.detals_btn').click(function(){
    $('.detals').css('display','none');
 
 });
+
+
+// https://api.escuelajs.co/api/v1/products//

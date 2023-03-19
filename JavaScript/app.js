@@ -1,4 +1,4 @@
-
+//////////////////////inp short/long function///////////////////////
 let s = true;
 
 $('.search').click(function(){
@@ -19,7 +19,7 @@ $('.search').click(function(){
     s = !s;
 });
 
-
+////////////////btn click show/off function///////////////////////
 $('.event').click(function(){
 
     $('.lorem').css('opacity','1');
@@ -46,7 +46,7 @@ $('.back2').click(function(){
 
 
 
-
+///////////////////////nav scrol show/hide  function////////////////
 let nav = document.querySelector('.fixed');
 let lastScroll = 0;
 
@@ -63,7 +63,7 @@ window.addEventListener('scroll', function(){
     }
 
     lastScroll = scroll;
-    
+
 });
 
 

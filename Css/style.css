@@ -400,6 +400,13 @@ footer .footer_box .row h5 {
   .One .row .second .lorem2 {
     right: 37px;
   }
+  .two .detals {
+    margin-bottom: 50px;
+  }
+  .two .detals .title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
   footer {
     padding: 60px 29px 146px 29px;
   }
