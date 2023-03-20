@@ -367,7 +367,8 @@ footer .footer_box .row h5 {
   header nav .li .btn_box {
     height: 30px;
     width: 67px;
-    margin-left: 114px;
+    margin-left: 136px;
+    margin-top: 16px;
   }
   header nav .li .btn_box .change_bg {
     width: 25px;
@@ -408,6 +409,7 @@ footer .footer_box .row h5 {
     margin-bottom: 30px;
   }
   footer {
+    margin-top: 180px;
     padding: 60px 29px 146px 29px;
   }
   footer .footer_box .eclips {
