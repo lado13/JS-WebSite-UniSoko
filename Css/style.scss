@@ -21,6 +21,9 @@ header{
         background: linear-gradient(540deg, #fc0b0b28 , #FFFFFF );
         width: 100%;
     
+        .container-fluid{
+            max-width: 1440px;
+        }
         li{
             list-style-type: none;
         }
@@ -53,10 +56,44 @@ header{
         background-color: #EAF6FF;
         padding: 64px 0 14px 96px;
         height: 480px;
-        max-width: 100%;
+        max-width: 1297px;
+
+        .liveSearch{
+           
+            display: none;
+            max-height: 400px;
+            overflow: auto;
+            width: 330px;
+            padding: 15px;
+            background-color:#f3f3f3; 
+            border-radius: 10px;
+            
+          
+           ul{
+            padding: 0;
+            li{
+                list-style-type: none;
+                display: flex;
+                border: 1px solid rgb(154, 154, 154);
+                border-radius: 5px;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                cursor: pointer;
+                .searchTitle{
+                    margin-left: 10px;
+                }
+                .searchImg{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+           }
+        }
         .row{
             padding-top: 100px;
             .header_col{
+                z-index: 9;
                 h1{
                     font-style: normal;
                     font-weight: 400;
@@ -113,13 +150,16 @@ header{
 }
 
 .One{
+    .container{
+        padding: 0;
+    }
     .row{
         padding-top: 100px;
         .Col{
             display: flex;
             box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
             border-radius: 10px;
-            margin-left: 48px;
+          
             padding: 41px 37px 27px 28px;
            h1{
             font-style: normal;
@@ -164,6 +204,8 @@ header{
         }
         .first{
             position: relative;
+            z-index: -1;
+            margin-right: 15px;
             .lorem{
                 border: 1px solid rgb(255, 255, 255);
                 border-radius: 15px;
@@ -194,6 +236,7 @@ header{
         }
         .second{
             position: relative;
+            margin-left: 15px;
             .lorem2{
                 border: 1px solid rgb(255, 255, 255);
                 border-radius: 15px;
@@ -229,40 +272,7 @@ header{
 
 .two{
 
-    .detals{
-        display: inline-block;
-        margin-top: 100px;
-        margin-bottom: -182px;
-        color: black;
-        width: 100%;
-        height: 500px;
-        background-color: #FAFBFC;
-
-        .col{
-            text-align: center;
-            .detals_btn{
-                margin-top: 200px;
-                font-size: 30px;
-                background-color: #0896e2;        
-                padding: 0 88px;
-                text-decoration: none;
-            }
-        }
-
-        .image{
-            width: 300px;
-            height: 300px;
-            margin-bottom: 59px;
-        }
-    }
-
-    .block{
-      display: none;
-      background-color: #FFFFFF ;
-      color: #000000 ;
-    }
- 
-   
+    
     .api{
         margin-top: 137px;
         display: flex;
@@ -270,6 +280,8 @@ header{
         justify-content: center;
         margin-left: 70px;
         margin-right: 70px;
+        max-width: 1364px;
+        margin: auto;
       
         col{
             margin: 15px;
@@ -335,12 +347,19 @@ footer{
 
     .footer_box{
         position: relative;
-        margin: 0;
+        margin: auto;
+        padding: 0;
+      
+
+        .topp{
+            margin: 0;
+        }
       
         .eclips{
             position: absolute;
-            right: -115px;
+            right: -74px;
             top: -135px;
+            z-index: -1;
         }
         .row{
             h3{
@@ -377,9 +396,81 @@ footer{
 }
 
 
+.detals_box{
+    margin-top: 117px;
+    margin-left: 48px;
+    background-color: #FAFBFC;
+    padding: 80px 80px;
+    margin: auto;
+    max-width: 1448px;
+    .row{
+       
+        .col{
+            z-index: 0;
+            .image{
+                width: 592px;
+                height: 562px;
+            }
+        }
+
+        .col_2{
+            text-align: left;
+            .description{
+                width: 418px;
+                margin-top: 63px;
+            }
+            .price{
+                margin-top: 37px;
+            }
+            .back_btn{
+                width: 200px;
+                height: 35px;
+                background-color: #0a7dd4;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                font-weight: bold;
+                margin-top: 100px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
 
 @media (max-width:600px){
 
+
+    .detals_box{
+      
+        margin-left: 0;
+        padding: 0 ;
+      
+        .row{
+         
+            margin: auto;
+            .col{
+               
+                
+            
+                .image{
+                    width: 300px;
+                    height: 300px;
+                    margin-top: 200px;
+                    margin-bottom: 100px;
+                  
+                }
+            }
+            .col_2{
+                .description{
+                    width: 280px;
+                }
+            }
+        }
+    }
    
 
 
